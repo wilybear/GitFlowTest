@@ -14,5 +14,5 @@ protocol ItemProtocol {
 
 protocol PersonProtocol {
     var wallet: Int { get set }
-    func buy(item: ItemProtocol)
+    mutating func buy(item: ItemProtocol)
 }
